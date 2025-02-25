@@ -1,0 +1,49 @@
+nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+}
+.slogan{
+    color: red;
+    padding: 10px;
+    
+}
+li{
+    display: inline-block;
+    padding: 10px;
+    list-style-type: none;  
+    transition: 0.2s;
+    cursor:pointer;
+}
+li:hover{
+    transform: scale(1.02);
+}
+.Main_Box{
+    display:flex;
+    background-color: #ffffff;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  padding:50px;
+  gap: 30px;
+}
+
+.box{
+    background-color: #eeeeee82;
+        text-align: center;
+        font-size: 17px;
+        width: 15%;
+        padding: 10px 60px;
+        border: 2px solid #b9b9b982;
+        transition: 0.3s;
+}
+
+.box:hover{
+    box-shadow: 0 8px 16px 0 rgba(29, 28, 28, 0.2);
+    transform: scale(1.04);
+    border: 2px solid #b9b9b900;
+}
+.foo{
+    text-align: center;
+}
